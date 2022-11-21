@@ -1,0 +1,16 @@
+{
+  "name": "transportation_units",
+  "author": "Alexandru Dochian",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "start": "node build/index.js",
+    "develop": "tsc --watch",
+    "clean": "rm -rf build/**/*.js"
+  }
+}
